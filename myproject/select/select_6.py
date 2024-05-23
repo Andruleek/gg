@@ -22,7 +22,7 @@ def find_students_in_group(students, group_number):
 if __name__ == "__main__":
     num_students = 50
     num_groups = 3
-    
+
     students = generate_students(num_students, num_groups)
     print("Список студентів у групах:")
     for group_num in range(1, num_groups + 1):

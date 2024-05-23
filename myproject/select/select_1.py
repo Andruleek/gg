@@ -1,7 +1,6 @@
 import sqlite3
 from faker import Faker
 import random
-
 from select_2 import function_from_select_2
 from select_3 import function_from_select_3
 from select_4 import function_from_select_4
@@ -73,7 +72,7 @@ def generate_data():
     # Цикл для вставки кожного імені вчителя у таблицю
     for teacher_name in teachers:
         cursor.execute('''INSERT INTO teachers (name) VALUES (?)''', (teacher_name,))
-        
+
     subjects = [('Mathematics', 1), ('Physics', 2), ('Biology', 3), ('Chemistry', 4), ('History', 5)]
     for subject in subjects:
         cursor.execute('''INSERT INTO subjects (name, teacher_id) VALUES (?, ?)''', subject)

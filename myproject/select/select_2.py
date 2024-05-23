@@ -29,4 +29,3 @@ print("Бал з математики:", top_math_student['math_grade'])
 
 def function_from_select_2():
     print("This is a function from select_2.py")
-

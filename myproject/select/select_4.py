@@ -29,6 +29,6 @@ for score in scores:
 average_score = total_score / total_count
 
 print("Середній бал на потоці: {:.2f}".format(average_score))
- 
+
 def function_from_select_4():
     print("This is a function from select_4.py")
